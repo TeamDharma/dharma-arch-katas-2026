@@ -1,0 +1,15 @@
+{
+  "capability": "staff-deployment",
+  "fitness_function": "FF-29",
+  "thresholds": { "max_identifying_fields": 0 },
+  "forbidden_field_patterns": ["staff_id", "employee", "person", "name", "badge", "roster_id", "email", "shift_owner"],
+  "output_schema": {
+    "zone_id": "string",
+    "window_start": "iso8601",
+    "window_end": "iso8601",
+    "forecast_occupancy": "integer",
+    "suggested_headcount": "integer",
+    "confidence": "float",
+    "model_version": "string"
+  }
+}

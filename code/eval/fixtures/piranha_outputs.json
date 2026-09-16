@@ -1,0 +1,67 @@
+{
+  "capability": "piranha-population",
+  "fitness_function": "FF-26 and FF-27",
+  "thresholds": {
+    "interval_required": true,
+    "max_interval_width_ratio": 0.15
+  },
+  "outputs": [
+    {
+      "date": "2026-09-01",
+      "result": "Estimate",
+      "estimate": 262,
+      "interval": {
+        "low": 248,
+        "high": 276
+      },
+      "turbidity": "low"
+    },
+    {
+      "date": "2026-09-02",
+      "result": "Estimate",
+      "estimate": 259,
+      "interval": {
+        "low": 244,
+        "high": 274
+      },
+      "turbidity": "low"
+    },
+    {
+      "date": "2026-09-03",
+      "result": "Estimate",
+      "estimate": 261,
+      "interval": {
+        "low": 240,
+        "high": 282
+      },
+      "turbidity": "medium"
+    },
+    {
+      "date": "2026-09-04",
+      "result": "Estimate",
+      "estimate": 258,
+      "interval": {
+        "low": 228,
+        "high": 288
+      },
+      "turbidity": "high"
+    },
+    {
+      "date": "2026-09-05",
+      "result": "MeasurementUnavailable",
+      "reason": "turbidity outside calibrated range",
+      "turbidity": "very_high"
+    },
+    {
+      "date": "2026-09-06",
+      "result": "Estimate",
+      "estimate": 255,
+      "interval": {
+        "low": 241,
+        "high": 269
+      },
+      "turbidity": "low"
+    }
+  ],
+  "note": "Output is a tagged type. Every Estimate carries an interval, every non-estimate is an explicit MeasurementUnavailable with a reason. A bare number fails. Adversarial review found that an earlier version of FF-26 would have rejected the refusal behaviour the same ADR mandates."
+}

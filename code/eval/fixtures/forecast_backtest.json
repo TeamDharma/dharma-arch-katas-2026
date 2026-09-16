@@ -1,0 +1,15 @@
+{
+  "capability": "demand-forecasting",
+  "fitness_function": "FF-28",
+  "thresholds": { "required_relative_improvement": 0.10 },
+  "weeks": [
+    {"week": "2026-W27", "actual": 5210, "baseline": 4800, "model": 5100},
+    {"week": "2026-W28", "actual": 6100, "baseline": 5400, "model": 5900},
+    {"week": "2026-W29", "actual": 4820, "baseline": 5300, "model": 4950},
+    {"week": "2026-W30", "actual": 7300, "baseline": 6100, "model": 7050},
+    {"week": "2026-W31", "actual": 6640, "baseline": 6000, "model": 6500},
+    {"week": "2026-W32", "actual": 5980, "baseline": 5500, "model": 6100},
+    {"week": "2026-W33", "actual": 8120, "baseline": 6800, "model": 7800},
+    {"week": "2026-W34", "actual": 7010, "baseline": 6400, "model": 6900}
+  ]
+}
