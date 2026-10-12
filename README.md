@@ -74,7 +74,7 @@ numbered in the order the decisions were actually made.
 | Targeted view for each use of AI | One per folder in [04-ai-scenarios/](04-ai-scenarios/), each with an inline key |
 | ADRs for the AI implementations, with trade-offs | [07-decisions/](07-decisions/), sixteen, each with the options weighed, consequences and a verification method |
 | Implementation details (optional) | [code/](code/), a runnable evaluation harness |
-| Five minute video (semifinalists only) | [video/narrative.md](video/narrative.md), structure drafted |
+| Five minute video (semifinalists only) | [video/Kata_Submission.mp4](video/Kata_Submission.mp4) |
 
 Every diagram is inline Mermaid, so GitHub renders it in place. PNG exports of
 all fifteen are in [assets/diagrams/](assets/diagrams/) for reading offline.
